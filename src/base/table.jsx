@@ -9,9 +9,9 @@ export default function Table(props) {
                         <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
                             <thead>
                                 <tr>
-                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase bg-violet-700 text-white">Name</th>
-                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase bg-violet-700 text-white">Age</th>
-                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase bg-violet-700 text-white">Address</th>
+                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase bg-indigo-700 text-white">Name</th>
+                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase bg-indigo-700 text-white">Age</th>
+                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase bg-indigo-700 text-white">Address</th>
                                 </tr>
                             </thead>
                             <tbody className="divide-y divide-gray-600">

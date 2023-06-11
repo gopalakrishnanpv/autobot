@@ -1,6 +1,5 @@
 import Button from "../base/button";
 import Heading from "../base/heading";
-import Link from "../base/link";
 
 
 export default function Actions(props) {
@@ -64,8 +63,8 @@ export default function Actions(props) {
                 </div>
                 <Button title="Alert" text="Alert" onClick={(showAlert)} />
                 <Button title="Confirm" text="Confirm" onClick={showConfirmAlert} />
-                <Link title="Open New Tab" text="Open New Tab" href="https://portfolio-gopalakrishnan.vercel.app" target="_blank" />
-                <Link title="Open New Window" text="Open New Window" onClick={openWindow} />
+                <Button title="Open New Tab" text="Open New Tab" href="https://portfolio-gopalakrishnan.vercel.app" target="_blank" />
+                <Button title="Open New Window" text="Open New Window" onClick={openWindow} />
 
             </div>
         </div >

@@ -2,7 +2,7 @@ import { FaRobot } from 'react-icons/fa'
 
 export default function Header(props) {
     return <div className="w-full flex flex-col align-center justify-center">
-        <header className="text-center w-full p-5 bg-violet-700 flex flex-col align-center justify-center gap-3 text-xl text-white">
+        <header className="text-center w-full p-5 bg-indigo-700 flex flex-col align-center justify-center gap-3 text-xl text-white">
 
             <div className="flex align-center justify-center">
                 <FaRobot className="text-5xl font-normal" />
