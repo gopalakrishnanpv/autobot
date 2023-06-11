@@ -9,28 +9,28 @@ export default function Table(props) {
                         <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
                             <thead>
                                 <tr>
-                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase bg-indigo-700 text-white">Name</th>
-                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase bg-indigo-700 text-white">Age</th>
-                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase bg-indigo-700 text-white">Address</th>
+                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase bg-indigo-700 text-white">City</th>
+                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase bg-indigo-700 text-white">State</th>
+                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase bg-indigo-700 text-white">Country</th>
                                 </tr>
                             </thead>
                             <tbody className="divide-y divide-gray-600">
                                 <tr>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Gopalakrishnan</td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">29</td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Coimbatore</td>
+                                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Coimbatore</td>
+                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Tamilnadu</td>
+                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">India</td>
                                 </tr>
 
                                 <tr>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Jim Green</td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">27</td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">London No. 1 Lake Park</td>
+                                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Trivandrum</td>
+                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Kerala</td>
+                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">India</td>
                                 </tr>
 
                                 <tr>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Joe Black</td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">31</td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Sidney No. 1 Lake Park</td>
+                                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Sydney</td>
+                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600"> New South Wales</td>
+                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Australia</td>
                                 </tr>
                             </tbody>
                         </table>

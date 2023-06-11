@@ -52,14 +52,14 @@ export default function Actions(props) {
         <div className="p-5">
             <Heading text="Actions" />
             <div
-                className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 flex gap-5 align-center justify-start">
+                className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 flex gap-5 align-center justify-start">
                 <div className="flex flex-col gap-3 align-center justify-start text-center">
                     <Button title="Single / Double / Right Click" text="Click Me" onClick={handleClick} onContextMenu={handleClick} />
                     <p id="click-hint" className="text-pink-500 font-medium">Not clicked yet.</p>
                 </div>
                 <div className="flex flex-col gap-3 align-center justify-start text-center">
                     <Button title="Toggle" text="Toggle" onClick={toggleElement} />
-                    <p id="toggle-hint" className="text-pink-500 font-medium">Toggle visibility using the button.</p>
+                    <p id="toggle-hint" className="text-pink-500 font-medium">Toggle visibility.</p>
                 </div>
                 <Button title="Alert" text="Alert" onClick={(showAlert)} />
                 <Button title="Confirm" text="Confirm" onClick={showConfirmAlert} />
