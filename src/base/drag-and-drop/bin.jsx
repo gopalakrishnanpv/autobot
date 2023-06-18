@@ -12,7 +12,7 @@ export const Bin = () => {
     const isActive = canDrop && isOver
     return (
         <div ref={drop} data-testid="dropzone"
-            className="p-3 text-indigo-600 font-medium border-2 border-dashed border-indigo-600">
+            className="p-10 text-indigo-600 font-medium border-2 border-dashed border-indigo-600">
             {isActive ? 'Release to drop' : 'Drag a box here'}
         </div>
     )
