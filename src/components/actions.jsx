@@ -1,4 +1,5 @@
 import Button from "../base/button";
+import DragAndDrop from "../base/drag-and-drop/drag-and-drop";
 import Heading from "../base/heading";
 
 
@@ -54,18 +55,19 @@ export default function Actions(props) {
             <div
                 className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 flex gap-5 align-center justify-start">
                 <div className="flex flex-col gap-3 align-center justify-start text-center">
-                    <Button title="Single / Double / Right Click" text="Click Me" onClick={handleClick} onContextMenu={handleClick} />
+                    <Button id="click" title="Single / Double / Right Click" text="Click Me" onClick={handleClick} onContextMenu={handleClick} />
                     <p id="click-hint" className="text-pink-500 font-medium">Not clicked yet.</p>
                 </div>
                 <div className="flex flex-col gap-3 align-center justify-start text-center">
-                    <Button title="Toggle" text="Toggle" onClick={toggleElement} />
+                    <Button id="toggle" title="Toggle" text="Toggle" onClick={toggleElement} />
                     <p id="toggle-hint" className="text-pink-500 font-medium">Toggle visibility.</p>
                 </div>
-                <Button title="Alert" text="Alert" onClick={(showAlert)} />
-                <Button title="Confirm" text="Confirm" onClick={showConfirmAlert} />
-                <Button title="Open New Tab" text="Open New Tab" href="https://portfolio-gopalakrishnan.vercel.app" target="_blank" />
-                <Button title="Open New Window" text="Open New Window" onClick={openWindow} />
-
+                <Button id="hover" title="Hover" text="Hover" className="hover:bg-pink-600" />
+                <Button id="alert" title="Alert" text="Alert" onClick={(showAlert)} />
+                <Button id="confirm" title="Confirm" text="Confirm" onClick={showConfirmAlert} />
+                <Button id="new_tab" title="Open New Tab" text="Open New Tab" href="https://portfolio-gopalakrishnan.vercel.app" target="_blank" />
+                <Button id="new_window" title="Open New Window" text="Open New Window" onClick={openWindow} />
+                <DragAndDrop id="drag-and-drop" title="Drag and Drop" />
             </div>
         </div >
     );
