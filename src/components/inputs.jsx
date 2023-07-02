@@ -36,7 +36,7 @@ export default function Inputs(props) {
                 <Dropdown />
                 <Input type="date" id="date" title="Date" />
                 <Input type="time" id="time" title="Time" />
-                <Input type="file" id="file" title="File" />
+                {/* <Input type="file" id="file" title="File" /> */}
                 <CheckboxGroup />
                 <RadioButtonGroup />
                 <Range id="range" title="Range" min="1" max="100" defaultValue="24" />

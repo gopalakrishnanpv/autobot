@@ -1,5 +1,4 @@
 import Button from "../base/button";
-import DragAndDrop from "../base/drag-and-drop/drag-and-drop";
 import Heading from "../base/heading";
 
 
@@ -67,7 +66,7 @@ export default function Actions(props) {
                 <Button id="confirm" title="Confirm" text="Confirm" onClick={showConfirmAlert} />
                 <Button id="new_tab" title="Open New Tab" text="Open New Tab" href="https://portfolio-gopalakrishnan.vercel.app" target="_blank" />
                 <Button id="new_window" title="Open New Window" text="Open New Window" onClick={openWindow} />
-                <DragAndDrop id="drag-and-drop" title="Drag and Drop" />
+                {/* <DragAndDrop id="drag-and-drop" title="Drag and Drop" /> */}
             </div>
         </div >
     );
