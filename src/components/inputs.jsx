@@ -33,13 +33,13 @@ export default function Inputs(props) {
                     <p id="emailError" className="text-sm mt-2 text-red-600"></p>
                 </div>
                 <Input type="password" id="password" title="Password" placeholder="Enter your password" />
-                <Dropdown />
+                <Dropdown id="dropdown"/>
                 <Input type="date" id="date" title="Date" />
                 <Input type="time" id="time" title="Time" />
-                {/* <Input type="file" id="file" title="File" /> */}
+                <Range id="range" title="Range" min="1" max="100" defaultValue="24" />
                 <CheckboxGroup />
                 <RadioButtonGroup />
-                <Range id="range" title="Range" min="1" max="100" defaultValue="24" />
+                {/* <Input type="file" id="file" title="File" /> */}
             </div>
         </div>
     );
